@@ -6,5 +6,4 @@ return {
     deepl  = "",   -- https://www.deepl.com/pro (Free: 500k chars/month)
     azure  = "",   -- https://portal.azure.com → Cognitive Services → Translator
     yandex = "",   -- https://cloud.yandex.com → Translate API
-    groq   = "",   -- https://console.groq.com (Free tier available)
 }
