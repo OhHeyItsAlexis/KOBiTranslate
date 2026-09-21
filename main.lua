@@ -32,13 +32,14 @@ local ENGINE_REGISTRY = {
 -- Common language choices
 local LANGUAGES = {
     { code = "auto", label = _("Auto-detect") },
-    { code = "pt-br", label = "Português (BR)" },
-    { code = "pt",    label = "Português" },
-    { code = "en",    label = "English" },
+    { code = "nl",    label = "Dutch" },
     { code = "es",    label = "Español" },
-    { code = "fr",    label = "Français" },
-    { code = "de",    label = "Deutsch" },
     { code = "it",    label = "Italiano" },
+    { code = "de",    label = "Deutsch" },
+    { code = "fr",    label = "Français" },
+    { code = "en",    label = "English" },
+    { code = "pt-br", label = "Português (BR)" },
+    { code = "pt",    label = "Português" },x
     { code = "ru",    label = "Русский" },
     { code = "zh",    label = "中文" },
     { code = "ja",    label = "日本語" },
