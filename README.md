@@ -66,7 +66,7 @@ Keys entered via the menu take priority over the file.
 All settings are available under **Tools → Book Translator → Settings**:
 
 - **Translation engine** — switch between DeepL, Azure, or Yandex
-- **Target language** — the language you want to read in (default: `nl`)
+- **Target language** — the language you want to read in (default: `en`)
 - **Source language** — auto-detected by default, or set manually
 - **API keys** — enter/update keys for each engine
 - **Clear cache** — remove cached translations for the current book
