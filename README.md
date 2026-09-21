@@ -28,7 +28,6 @@ Translated paragraphs are visually separated by a left border so you can tell th
 | **DeepL** | 500k chars/month | Best quality for European languages |
 | **Microsoft Azure** | 2M chars/month | Broad language support |
 | **Yandex Translate** | Limited | Good for Russian/CIS languages |
-| **Groq** (LLM) | Free tier available | Uses Llama for translation |
 
 ## Installation
 
@@ -57,7 +56,6 @@ return {
     deepl  = "your-deepl-key-here",
     azure  = "",
     yandex = "",
-    groq   = "",
 }
 ```
 
@@ -67,8 +65,8 @@ Keys entered via the menu take priority over the file.
 
 All settings are available under **Tools → Book Translator → Settings**:
 
-- **Translation engine** — switch between DeepL, Azure, Yandex, or Groq
-- **Target language** — the language you want to read in (default: `pt-br`)
+- **Translation engine** — switch between DeepL, Azure, or Yandex
+- **Target language** — the language you want to read in (default: `nl`)
 - **Source language** — auto-detected by default, or set manually
 - **API keys** — enter/update keys for each engine
 - **Clear cache** — remove cached translations for the current book
