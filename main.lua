@@ -1,7 +1,7 @@
 --[[--
 Book Translator Plugin for KOReader.
 
-Translates the current chapter using an external API (DeepL, Azure, Yandex, Groq)
+Translates the current chapter using an external API (DeepL, Azure, Yandex)
 and displays a bilingual view with original + translated paragraphs interleaved.
 
 @module translator
@@ -26,7 +26,6 @@ local ENGINE_REGISTRY = {
     { key = "deepl",  name = "DeepL",            module = "translator_engines/deepl" },
     { key = "azure",  name = "Microsoft Azure",   module = "translator_engines/azure" },
     { key = "yandex", name = "Yandex",            module = "translator_engines/yandex" },
-    { key = "groq",   name = "Groq (LLM)",        module = "translator_engines/groq" },
 }
 
 -- Common language choices
