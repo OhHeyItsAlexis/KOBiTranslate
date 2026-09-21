@@ -1,6 +1,15 @@
-# translator.koplugin
+# KOReader Bilingual Translator
 
 A KOReader plugin that translates books chapter by chapter, injecting the translated text directly into the EPUB alongside the original paragraphs. Read in your language without leaving the book.
+
+## TODO
+I want to make some changes to the original project to suit my own personal tastes.
+[ ] Remove Groq (and possible all the other translation services, but the Hitler one _has_ to go.)
+[ ] Add support for local Google Translate
+[ ] Add support for LibreTranslate
+[ ] Add support for KagiTranslate?
+
+This project is broken and shouldn't be used until those TODOs are complete.
 
 ## How it works
 
@@ -102,7 +111,7 @@ translator.koplugin/
 
 ## Requirements
 
-- KOReader (tested on Kindle, should work on Kobo/PocketBook/desktop)
+- KOReader (written for Android, and probably not compatible with other devices)
 - `zip` and `unzip` available on the device (standard on most KOReader-supported devices)
 - An API key for at least one translation engine
 
