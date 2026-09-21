@@ -56,7 +56,7 @@ function Translator:init()
     -- Load saved settings
     self.settings = self.ui.doc_settings or {}
     self.engine_key = G_reader_settings:readSetting("translator_engine") or "deepl"
-    self.target_lang = G_reader_settings:readSetting("translator_target_lang") or "pt-br"
+    self.target_lang = G_reader_settings:readSetting("translator_target_lang") or "en"
     self.source_lang = G_reader_settings:readSetting("translator_source_lang") or "auto"
     self.api_keys = G_reader_settings:readSetting("translator_api_keys") or {}
 
